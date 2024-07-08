@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <h1>Jogo da Velha</h1>
+
+    <div id="buttons-container">
+      <button id="two-players">2 Jogadores</button>
+      <button id="ai-player">Jogar contra IA</button>
+    </div>
+
+    <div id="container" class="hide">
+      <div id="block-1" class="box"></div>
+      <div id="block-2" class="box"></div>
+      <div id="block-3" class="box"></div>
+      <div id="block-4" class="box"></div>
+      <div id="block-5" class="box"></div>
+      <div id="block-6" class="box"></div>
+      <div id="block-7" class="box"></div>
+      <div id="block-8" class="box"></div>
+      <div id="block-9" class="box"></div>
+
+      <div id="scoreboard-container">
+        <span class="score-box">
+          <span id="x-scoreboard"><i class="bx bx-x"></i></span>:
+          <span id="scoreboard-1">0</span>
+        </span>
+
+        <span class="score-box">
+          <span id="o-scoreboard"><i class="bx bx-radio-circle"></i></span>:
+          <span id="scoreboard-2">0</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="hide">
+      <div class="x"><i class="bx bx-x"></i></div>
+      <div class="o"><i class="bx bx-radio-circle"></i></div>
+    </div>
+
+    <div id="message" class="hide">
+      <p></p>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
