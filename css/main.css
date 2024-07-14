@@ -61,7 +61,7 @@ h2 {
     font-size: 65px;
     color: red;
     display: inline-block;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 .o {
@@ -70,7 +70,7 @@ h2 {
     border: 5px solid green;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 17px;
+    margin-top: 25px;
 }
 
 /* .hide {
