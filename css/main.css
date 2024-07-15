@@ -21,6 +21,8 @@ h2 {
     padding: 10px 15px;
     margin: 0 10px;
     margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 #container {
@@ -115,10 +117,28 @@ h2 {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 224px;
+    top: 164px;
     width: 500px;
     font-size: 50px;
     background-color: #333;
     color: white;
     padding: 20px;
+    border-radius: 5px;
+}
+
+#reload-game {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 600px;
+    width: 320px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
 }
