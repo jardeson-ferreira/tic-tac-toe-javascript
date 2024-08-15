@@ -1,82 +1,82 @@
 # Tic-Tac-Toe JavaScript
 
-Este é o Projeto 01 do curso de JavaScript. O projeto é um jogo de Tic-Tac-Toe (Jogo da Velha) interativo desenvolvido em JavaScript, HTML e CSS. Este README fornece uma visão geral do projeto, incluindo instruções de instalação, como jogar e detalhes técnicos.
+This is Project from the JavaScript course. The project is an interactive Tic-Tac-Toe game developed using JavaScript, HTML, and CSS. This README provides an overview of the project, including installation instructions, how to play, and technical details.
 
-## Sumário
+## Table of Contents
 
-- [Visão Geral](#visão-geral)
-- [Instalação](#instalação)
-- [Como Jogar](#como-jogar)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Overview](#overview)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Visão Geral
+## Overview
 
-Este projeto foi desenvolvido como parte de um curso de JavaScript com o objetivo de praticar e aprimorar habilidades em programação web, manipulação de DOM e lógica de jogo. O jogo permite que dois jogadores se enfrentem ou que um jogador jogue contra a IA (Inteligência Artificial).
+This project was developed as part of a JavaScript course with the aim of practicing and improving web programming skills, DOM manipulation, and game logic. The game allows two players to compete against each other or a player to play against AI (Artificial Intelligence).
 
-## Instalação
+## Installation
 
-Para executar este projeto localmente, siga os passos abaixo:
+To run this project locally, follow these steps:
 
-1. Clone o repositório para o seu ambiente local:
+1. Clone the repository to your local environment:
     ```bash
     git clone https://github.com/jardeson-ferreira/tic-tac-toe-javascript.git
     ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
     ```bash
     cd tic-tac-toe-javascript
     ```
 
-3. Abra o arquivo `index.html` no seu navegador preferido.
+3. Open the `index.html` file in your preferred browser.
 
-## Como Jogar
+## How to Play
 
-### Modo 2 Jogadores
+### 2 Player Mode
 
-1. Abra o jogo no navegador.
-2. Clique no botão "Modo 2 Jogadores".
-3. O jogador 1 utiliza o símbolo 'X' e o jogador 2 utiliza o símbolo 'O'.
-4. Clique em uma das caixas para fazer uma jogada.
-5. O jogo termina quando um jogador fizer uma linha horizontal, vertical ou diagonal, ou quando todas as caixas estiverem preenchidas (empate).
+1. Open the game in your browser.
+2. Click the "2 Player Mode" button.
+3. Player 1 uses the 'X' symbol and Player 2 uses the 'O' symbol.
+4. Click on one of the squares to make a move.
+5. The game ends when a player completes a horizontal, vertical, or diagonal line, or when all squares are filled (draw).
 
-### Modo Jogador vs IA
+### Player vs AI Mode
 
-1. Abra o jogo no navegador.
-2. Clique no botão "Modo Jogador vs IA".
-3. O jogador utiliza o símbolo 'X' e a IA utiliza o símbolo 'O'.
-4. Clique em uma das caixas para fazer uma jogada.
-5. A IA fará uma jogada automaticamente após o jogador.
-6. O jogo termina quando um jogador ou a IA fizer uma linha horizontal, vertical ou diagonal, ou quando todas as caixas estiverem preenchidas (empate).
+1. Open the game in your browser.
+2. Click the "Player vs AI Mode" button.
+3. The player uses the 'X' symbol and the AI uses the 'O' symbol.
+4. Click on one of the squares to make a move.
+5. The AI will make a move automatically after the player.
+6. The game ends when a player or the AI completes a horizontal, vertical, or diagonal line, or when all squares are filled (draw).
 
-## Funcionalidades
+## Features
 
-- **Dois Modos de Jogo:** Modo 2 jogadores e Modo Jogador vs IA.
-- **Contador de Placar:** Mantém o registro das vitórias dos jogadores.
-- **IA Simples:** A IA faz jogadas aleatórias com um pequeno atraso para simular um comportamento humano.
+- **Two Game Modes:** 2 Player Mode and Player vs AI Mode.
+- **Score Counter:** Keeps track of player wins.
+- **Simple AI:** The AI makes random moves with a slight delay to simulate human behavior.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML:** Estrutura do jogo.
-- **CSS:** Estilização e efeitos de animação.
-- **JavaScript:** Lógica do jogo, manipulação do DOM e funcionalidades interativas.
+- **HTML:** Game structure.
+- **CSS:** Styling and animation effects.
+- **JavaScript:** Game logic, DOM manipulation, and interactive features.
 
-## Contribuição
+## Contributing
 
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga os passos abaixo:
+Contributions are welcome! If you want to contribute to this project, follow these steps:
 
-1. Faça um fork deste repositório.
-2. Crie um branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`).
-4. Faça um push para o branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+1. Fork this repository.
+2. Create a branch for your feature (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Divirta-se jogando Tic-Tac-Toe!
+Have fun playing Tic-Tac-Toe!
